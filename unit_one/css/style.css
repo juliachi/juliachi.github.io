@@ -5,3 +5,19 @@ body{
 h1, p{
 	color: blue;	
 }
+
+section {
+	border: 1px solid black;
+}
+
+#hello-world {
+	background-color: white;
+/*	width: 40px;
+	display: inline-block;*/
+}
+
+.lorem{
+	font-size: 30px;
+/*	width: 100px;
+	display: inline-block;*/
+}
