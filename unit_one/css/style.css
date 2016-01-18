@@ -1,5 +1,8 @@
 body{
-	font-family: Arial, sans-serif;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	background:url(http://41.media.tumblr.com/tumblr_lgqsqj2Glv1qgcb26o1_1280.jpg);
+	background-size: cover;
 }
 
 #title {
@@ -28,12 +31,24 @@ li {
 	display: inline;
 }
 
+div{
+/*	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+	display: inline-block;
+	margin: 20px;*/
+}
+
+hr {
+	width: 1000px;
+}
+
 p {
 	font-size: 10pt;
 }
 
 h2 {
-	font-family: "times new roman", serif;
+	/*font-family: "times new roman", serif;*/
 	font-size: 20pt;
 }
 
