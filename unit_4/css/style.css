@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:700,400);
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+
+
+h1 {
+	font-size: 40px;
+	font-family: 'Noto Serif', Serif, bold;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 15px;
+	width: 209px;
+	margin-right: auto;
+
+}
+
+
+body{
+	/*font-family: 'Arial', sans-serif;
+	text-align: center;
+	background:url(http://41.media.tumblr.com/tumblr_lgqsqj2Glv1qgcb26o1_1280.jpg);
+	background-size: cover;*/
+
+}
+
+.nav {
+/*	border:1px solid black;	*/
+	font-family: 'Arimo', sans-serif;
+	margin: 10px;
+	text-transform: uppercase;
+	font-size: 12pt;
+	z-index: 1;
+	margin: 0;
+	width: 300px;
+	margin-left: auto;
+	text-decoration: none;
+	font-color: black;
+
+}
+
+ul {
+	list-style: none;
+	text-align: center;
+}
+
+li {
+	display: inline;
+}
+
+div{
+/*	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+	display: inline-block;
+	margin: 20px;*/
+}
+
+hr {
+	width: 1250px;
+}
+
+p {
+	font-size: 10pt;
+}
+
+h2 {
+	/*font-family: "times new roman", serif;*/
+	font-size: 20pt;
+}
+
+.row{
+	display: inline;
+	padding: 15px;
+
+}
+
+img {
+	width: 50%;
+	height: 50%;
+}
