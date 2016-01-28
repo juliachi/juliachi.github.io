@@ -1,21 +1,20 @@
+*, 
+*:before, 
+*:after {     margin: 0;     padding: 0;     -moz-box-sizing: border-box;     -webkit-box-sizing: border-box;     box-sizing: border-box; }
+
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif:700,400);
 @import url(https://fonts.googleapis.com/css?family=Arimo);
-
 
 h1 {
 	font-size: 40px;
 	font-family: 'Noto Serif', Serif, bold;
-	text-align: center;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	text-align: left;
 	padding: 15px;
-	width: 209px;
-	margin-right: auto;
 
 }
 
 
-body{
+body {
 	/*font-family: 'Arial', sans-serif;
 	text-align: center;
 	background:url(http://41.media.tumblr.com/tumblr_lgqsqj2Glv1qgcb26o1_1280.jpg);
@@ -24,21 +23,24 @@ body{
 }
 
 .nav {
-/*	border:1px solid black;	*/
-	font-family: 'Arimo', sans-serif;
 	margin: 10px;
-	text-transform: uppercase;
-	font-size: 12pt;
 	z-index: 1;
 	margin: 0;
 	width: 300px;
 	margin-left: auto;
-	text-decoration: none;
-	font-color: black;
 
 }
 
-ul {
+.nav a {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: 'Arimo', sans-serif;
+	color: black;
+	text-decoration: none;
+/*	font-weight: bold;*/
+}
+
+.nav ul {
 	list-style: none;
 	text-align: center;
 }
@@ -47,13 +49,6 @@ li {
 	display: inline;
 }
 
-div{
-/*	width: 150px;
-	height: 150px;
-	border: 2px solid black;
-	display: inline-block;
-	margin: 20px;*/
-}
 
 hr {
 	width: 1250px;
@@ -68,13 +63,11 @@ h2 {
 	font-size: 20pt;
 }
 
-.row{
-	display: inline;
-	padding: 15px;
-
+.gallery {
+	-webkit-column-count: 2;      -moz-column-count: 2;           column-count: 2;
+	-webkit-column-gap: 1em;      -moz-column-gap: 1em;           column-gap: 1em;
 }
 
-img {
-	width: 50%;
-	height: 50%;
+.img-wrapper img {
+	width:100%;
 }
