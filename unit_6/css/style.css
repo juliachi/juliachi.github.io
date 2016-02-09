@@ -1,0 +1,129 @@
+/**, 
+*:before, 
+*:after {     margin: 0;     padding: 0;     -moz-box-sizing: border-box;     -webkit-box-sizing: border-box;     box-sizing: border-box; }
+*/
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:700,400);
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+
+body {
+	font-size: 10px;
+	/*background:url(http://41.media.tumblr.com/tumblr_lgqsqj2Glv1qgcb26o1_1280.jpg);
+	background-size: cover;*/
+}
+
+/*header*/
+
+h1 {
+	font-size: 4em;
+	font-family: 'Noto Serif', Serif, bold;
+	text-align: left;
+	padding: .5em 0 0 .5em;
+	margin-bottom: 0;
+}
+
+.nav_header {
+	margin: 1em;
+	z-index: 1;
+	margin: 0;
+	width: 40em;
+	margin-left: auto;
+	padding: .5em 0 1.5em 0;
+	
+}
+
+.nav_header a {
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-family: 'Arimo', sans-serif;
+	color: black;
+	text-decoration: none;
+	padding:0 1em;
+	/*float: right;*/
+}
+
+.nav_header a:hover {
+	text-decoration: underline;
+}
+
+.nav_header ul {
+	list-style: none;
+	text-align: center;
+}
+
+li {
+	display: inline;
+}
+
+
+hr {
+	width: 120em;
+}
+
+/*main*/
+
+#two_column {
+	background-color:#FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color:#E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 62%;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+
+
+.gallery {
+	-webkit-column-count: 2;      -moz-column-count: 2;           column-count: 2;
+	-webkit-column-gap: 1em;      -moz-column-gap: 1em;           column-gap: 1em;
+}
+
+.img-wrapper img {
+	width:100%;
+}
+
+
+/*footer*/
+
+footer {
+
+}
+
+h2 {
+	font-family: "Amino", Serif;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	text-align: center;
+	margin-top: 3em;
+}
+
+p {
+	font-family: "Amino", sans-serif;
+	font-size: 1.3em;
+	margin: 1.5em;
+}
+
