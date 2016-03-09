@@ -73,8 +73,12 @@ hr {
 /*home page*/
 
 .home_photo {
-	width: 98%;
+	width: 100%;
 	margin: none;
+}
+
+.home_photo img {
+	max-width: 100%;
 }
 
 /*series main page*/
@@ -132,8 +136,16 @@ p {
 
 
 /*media query*/
+@media screen and (min-width: 1224px) {
+	.wrapper {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
 
-@media screen and (max-width:925px) {
+}
+
+
+@media screen and (max-width:768px) {
 	.nav_header {
 		text-align: center;
 		font-size: 1em;
@@ -143,20 +155,19 @@ p {
 	.main h2 {
 		font-size: 1.5em;
 	}
+	.gallery_short {
+		height: none;
+	/*	display: block;*/
+		width: 100%;
+
+		-webkit-column-count: 1; 	-moz-column-count: 1; 	column-count: 1;
+		-webkit-column-gap: 0em; 	-moz-column-gap: 0em; 	column-gap: 0em;
+	}
 
 	.img-wrapper img {
 		padding: 0.1em;
 		width: 100%;
-		background-color: blue;
 		margin: none;
-	}
-
-	.gallery_short {
-		height: none;
-		width: 50%;
-		background-color: red;
-		display: inline;
-	}
 	
 }
 

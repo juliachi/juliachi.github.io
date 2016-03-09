@@ -59,7 +59,7 @@ hr {
 	background: url(http://41.media.tumblr.com/tumblr_lgqsqj2Glv1qgcb26o1_1280.jpg);
 	background-size: cover;
 	margin: 0.25em;
-	
+	background-position: center center;	
 }
 
 #clearfix:after {
@@ -88,7 +88,7 @@ hr {
 
 .nav_collection a:hover {
 	text-decoration: underline;
-	font-color: white;
+	color: white;
 }
 
 
