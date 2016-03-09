@@ -1,0 +1,95 @@
+/**, 
+*:before, 
+*:after {     margin: 0;     padding: 0;     -moz-box-sizing: border-box;     -webkit-box-sizing: border-box;     box-sizing: border-box; }
+*/
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:700,400);
+@import url(https://fonts.googleapis.com/css?family=Arimo);
+
+body {
+	font-size: 10px;
+	/*background:url(http://41.media.tumblr.com/tumblr_lgqsqj2Glv1qgcb26o1_1280.jpg);
+	background-size: cover;*/
+}
+
+/*header*/
+
+h1 {
+	font-size: 5em;
+	font-family: 'Noto Serif', Serif, bold;
+	text-align: left;
+	padding: .3em 0 .25em .5em;
+	margin-bottom: 0;
+	width: 80%;
+}
+
+.nav_header {
+	text-align: right;
+	padding: 0.5em 0 0.5em 0;
+	margin-bottom: 2em;
+	
+}
+
+.nav_header a {
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-family: 'Arimo', sans-serif;
+	color: black;
+	text-decoration: none;
+	padding:1em 1em;
+}
+
+.nav_header a:hover {
+	text-decoration: underline;
+}
+
+.nav_header ul {
+	list-style: none;
+}
+
+li {
+	display: inline;
+}
+
+
+hr {
+	width: 100%;
+}
+
+.main {
+	background:url(http://41.media.tumblr.com/tumblr_lgqsqj2Glv1qgcb26o1_1280.jpg);
+	background-size: cover;
+/*	opacity: 0.5;*/
+	margin:0.25em;
+	
+}
+
+/*.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}*/
+
+.nav_collection {
+	width:100%;
+	text-align: center;
+}
+
+.nav_collection a {
+	text-transform: uppercase;
+	font-size: 3em;
+	font-family: 'Arimo', sans-serif, bold;
+	color: black;
+	text-decoration: none;
+	padding:0.7em 0em;
+	display:block;
+}
+
+.nav_collection a:hover {
+	text-decoration: underline;
+}
+
+
+
