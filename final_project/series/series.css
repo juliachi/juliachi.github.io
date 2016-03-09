@@ -62,14 +62,14 @@ hr {
 	
 }
 
-/*.clearfix:after {
+#clearfix:after {
     visibility: hidden;
     display: block;
     font-size: 0;
     content: " ";
     clear: both;
     height: 0;
-}*/
+}
 
 .nav_collection {
 	width: 100%;
@@ -88,6 +88,7 @@ hr {
 
 .nav_collection a:hover {
 	text-decoration: underline;
+	font-color: white;
 }
 
 
