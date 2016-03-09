@@ -35,7 +35,7 @@ h1 {
 	font-family: 'Arimo', sans-serif;
 	color: black;
 	text-decoration: none;
-	padding:1em 1em;
+	padding: 1em 1em;
 }
 
 .nav_header a:hover {
@@ -56,10 +56,9 @@ hr {
 }
 
 .main {
-	background:url(http://41.media.tumblr.com/tumblr_lgqsqj2Glv1qgcb26o1_1280.jpg);
+	background: url(http://41.media.tumblr.com/tumblr_lgqsqj2Glv1qgcb26o1_1280.jpg);
 	background-size: cover;
-/*	opacity: 0.5;*/
-	margin:0.25em;
+	margin: 0.25em;
 	
 }
 
@@ -73,7 +72,7 @@ hr {
 }*/
 
 .nav_collection {
-	width:100%;
+	width: 100%;
 	text-align: center;
 }
 
@@ -83,8 +82,8 @@ hr {
 	font-family: 'Arimo', sans-serif, bold;
 	color: black;
 	text-decoration: none;
-	padding:0.7em 0em;
-	display:block;
+	padding: 0.7em 0em;
+	display: block;
 }
 
 .nav_collection a:hover {
